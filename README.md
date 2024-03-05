@@ -8,6 +8,13 @@ Django Docker is a Django package that simplifies the creation of Dockerfile and
 - Interactively configure Docker services.
 - Seamlessly integrate Docker support into your Django projects.
 
+### Current Services
+- PostgeSQL
+- MySQL
+- Redis
+- Rabbitmq
+- Nginx
+
 ## Requirements
 - Docker
 
@@ -16,7 +23,7 @@ Django Docker is a Django package that simplifies the creation of Dockerfile and
 1. You can install Django Docker using pip:
 
 ```bash
-pip install django-docker
+pip install django-docker-helper
 ```
 
 2. Add "django_docker_helper" to your installed apps
@@ -66,3 +73,6 @@ python manage.py docker_compose down --remove-orphans
 ```
 
 remove containers for services not defined in the Compose file
+
+
+# Documentation and addition of more services underway.... 
