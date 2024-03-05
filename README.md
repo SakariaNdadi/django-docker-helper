@@ -19,7 +19,7 @@ Django Docker is a Django package that simplifies the creation of Dockerfile and
 pip install django-docker
 ```
 
-2. Add "docker" to your installed apps
+2. Add "django_docker_helper" to your installed apps
 
 ### Creating a Dockerfile
 
